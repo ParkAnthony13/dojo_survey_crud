@@ -1,0 +1,22 @@
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    outline: 3px solid black;
+}
+
+.info {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.info_left, .info_right {
+    margin: 1.5em;
+}
+.info_right {
+    text-align: right;
+}
